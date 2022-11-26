@@ -1,0 +1,376 @@
+package latihan;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class TugasDASPRO {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	/*
+//39 b		
+		for (int i =0; i < 3; i++) {
+			for (int j =0; j < 7; j++) {
+				System.out.print("* ");
+			}
+		System.out.println();
+		System.out.println();
+		}
+System.out.println("===================================================");		
+//40 b		
+		for (int i =0; i < 3; i++) {
+			for (int j =0; j < 5; j++) {
+				System.out.print("1 ");
+			}
+		System.out.println();
+		System.out.println();	
+		}		
+
+System.out.println("===================================================");		
+//41 b		
+		for (int i =1; i <= 4; i++) {
+			for (int j =1; j <= 7; j++) {
+				System.out.print(i+" ");
+			}
+		System.out.println();
+		System.out.println();	
+		}	
+
+System.out.println("===================================================");		
+//42 b		
+		for (int i =1; i <= 5; i++) {
+			for (int j =1; j <= 7; j++) {
+				System.out.print(j+" ");
+			}
+		System.out.println();
+		System.out.println();	
+		}	
+
+System.out.println("====================================================");	
+//43 b
+System.out.println();
+		for (int i =1; i <= 7; i++) {
+			for (int j =1; j <= 7; j++) {
+				if (j <= i) {
+					System.out.print(i+" ");
+				}  
+			}
+		System.out.println();
+		System.out.println();
+		}
+		
+System.out.println("====================================================");	
+//44 b
+System.out.println();
+		for (int i =1; i <= 7; i++) {
+			for (int j =1; j <= 7; j++) {
+				if (j <= i) {
+					System.out.print(j+" ");
+				}  
+			}
+			System.out.println();
+			System.out.println();
+		}	
+	
+System.out.println("=================================================");		
+//45 b
+System.out.println();
+		for (int i =1; i <= 3; i++) {
+			for (int j =1; j <= 7; j++) {
+					System.out.print(i+ "."+ j + " ");
+			}
+		System.out.println();
+		System.out.println();
+		}
+		
+System.out.println("=================================================");		
+//46 b
+System.out.println();
+		for (int i =1; i <= 5; i++) {
+			for (int j =1; j <= 5; j++) {
+				if (j <= i) {
+					System.out.print("* ");
+				} 
+			}
+		System.out.println();
+		System.out.println();
+		}
+	
+System.out.println("=================================================");
+//47 b
+System.out.println();
+		for (int i =1; i <= 5; i++) {
+			for (int j =1; j <= 5; j++) {
+				if (j >= i) {
+					System.out.print("* ");
+				} 
+			}
+		System.out.println();
+		System.out.println();
+		}
+
+//48 Jeo
+		
+System.out.println("=================================================");
+//49
+System.out.println();
+		for (int i =1; i <= 4; i++) {
+			for (int j =1; j <= 6; j++) {
+				if (j > 3 && j<= 6) {
+					System.out.print("* ");
+				} 
+			}
+		System.out.println();
+		System.out.println();
+		}
+
+System.out.println("=================================================");		
+//67 b	
+System.out.println();
+		for (int i =1; i <= 7; i++) {
+			for (int j =1; j <= 7; j++) {
+				if (i == j) {
+				System.out.print("* ");
+			} else {
+				System.out.print(" ");
+			}
+		}
+		System.out.println();
+		System.out.println();
+		}
+
+System.out.println("=================================================");
+//68 b
+System.out.println();
+		for (int i =1; i <= 7; i++) {
+			for (int j =1; j <= 7; j++) {
+				if (j == i ||j+i == 8 ) {
+					System.out.print("*");
+				}  else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+			System.out.println();
+		}
+
+System.out.println("=================================================");		
+//69
+System.out.println();
+		for (int i =0; i <= 5; i++) {
+			for (int j =0; j <= 5; j++) {
+				if (j+i <= 10 ) {
+					break;
+				}
+					
+		}
+		System.out.println();
+		System.out.println();
+		}		
+			
+//segitiga tebalik
+System.out.println();
+		for (int i =0; i < 5; i++) {
+			for (int j =0; j < 5; j++) {
+				if (i <= j) {
+					System.out.print("* ");
+				}  else {
+					System.out.print(" ");
+				}
+			}
+		System.out.println();
+		}
+
+
+//garis/
+System.out.println();
+		for (int i =0; i < 5; i++) {
+			for (int j =0; j < 5; j++) {
+				if (j+i == 4) {
+					System.out.print("* ");
+				}  else {
+					System.out.print(" ");
+				}
+			}
+		System.out.println();
+		}		
+
+
+		
+//17 b
+System.out.println();
+		for ( int i = 6; i >=1 ; i--) {
+		for (int j = i; j >=1; j-=1) {
+				System.out.print(j + " ");
+		}
+		}
+
+		System.out.println();
+
+System.out.println("===============================================");
+//34 b
+System.out.println();
+	for (int i =1; i <= 3; i++) {
+		for (int j =1; j <= 10; j++) {
+			System.out.print("1 ");
+		}
+		System.out.println();
+		System.out.println();
+	}
+
+System.out.println("===============================================");
+//37 b
+System.out.println();
+	for ( int i = 1; i <=6 ; i++) {
+			System.out.print("0 * 1 ");
+		
+	}
+	System.out.println();
+	
+System.out.println("===============================================");
+//71 
+System.out.println();
+	for (int i =1; i <= 6; i++) {
+		for (int j =1; j <= 11; j++) {
+			if ((i+j)%2==0 || j+i ==12) {
+				System.out.print("* ");
+		} else {
+			System.out.print(" ");
+		}
+	}
+	System.out.println();
+	System.out.println();
+}
+	
+
+	
+	
+System.out.println("===============================================");
+//31 
+System.out.println();
+	/*int i = 1;
+	while (i <=512) {
+		System.out.print(i + " ");
+		i*=2;
+	}
+	System.out.println();
+*/
+
+System.out.println("===============================================");
+//30
+System.out.println();
+/*int j =1;
+	while (j <=25) {
+		System.out.print(j + " ");
+		j+=1;
+		System.out.print(j + " ");
+		j+=2;
+		System.out.print(j + " ");
+		j+=3;
+	}
+		System.out.println();
+
+	for (int i =1; i<=25; i++) {
+		if ( i == 25) {
+			if (i%2==1) {
+				System.out.print(i+1 + " ");
+			}else {
+				System.out.print(i + " ");
+			}
+		break;
+		}else {
+			System.out.print(i + " ");
+		}
+		
+	}
+
+	System.out.println();
+
+System.out.println("===============================================");
+//31 
+System.out.println();
+	
+		*/
+	
+	
+	System.out.println("================Toko Pakaian Bagus================");
+	System.out.println("==================================================");
+	System.out.print("Berapa Banyak Pakaian = ");
+	int banyak = Integer.parseInt(br.readLine());
+	System.out.println("==================================================");
+	
+	int jumlah = 0, total = 0;
+	String pakaian[] = new String [banyak];
+	String ukuran[]= new String [banyak];
+	String bhn[] = new String[banyak];
+	String pilihan = null, bahan = null;
+	int harga[]= new int [banyak];
+	int subtotal[] = new int [banyak];
+	
+	for (int i=0; i < banyak; i++) {
+		System.out.printf("Data Pakaian ke - %d ", i+1);
+		System.out.println();
+		
+		System.out.print("Masukkan Pilihan Pakaian <KM / KS/ JT / JS> = ");
+		pilihan = br.readLine();
+		
+		System.out.print("Masukkan Bahan Pakaian <C / J / S / W> = ");
+		bahan = br.readLine();
+		
+		System.out.print("Masukkan Ukuran Pakaian <S / M / L / XL> = ");
+		ukuran[i] = br.readLine();
+		
+		System.out.println("==================================================");
+		if (pilihan.equalsIgnoreCase("KM")) {
+			pakaian[i] = "Kemeja";
+			harga[i] = 120000;
+		}else if (pilihan.equalsIgnoreCase("KS")) {
+			pakaian[i] = "Kaos";
+			harga[i] = 60000;
+		}else if (pilihan.equalsIgnoreCase("JT")) {
+			pakaian[i] = "Jaket";
+			harga[i] = 120000;
+		}else if (pilihan.equalsIgnoreCase("JS")) {
+			pakaian[i] = "Jas";
+			harga[i] = 225000;
+		}
+		
+		if (bahan.equalsIgnoreCase("C")) {
+			bhn[i] = "Cotton";
+		}else if (bahan.equalsIgnoreCase("J")) {
+			bhn[i] = "Jeans";
+		}else if (bahan.equalsIgnoreCase("S")) {
+			bhn[i] = "Spandek";
+		}else if (bahan.equalsIgnoreCase("W")) {
+			bhn[i] = "Wol";
+		}
+		
+		System.out.println("Pilihan Pakaian = " + pakaian[i]);
+		System.out.println("Bahan Pakaian = " + bhn[i]);
+		System.out.println("Ukuran Pakaian = " + ukuran[i]);
+		System.out.println("Harga Satuan = " + harga[i]);
+		
+		System.out.println("==================================================");
+		System.out.print("Masukkan Jumlah Beli = ");
+		jumlah = Integer.parseInt(br.readLine());
+		
+		subtotal[i] = jumlah*harga[i];
+		System.out.println("Subtotal = " + subtotal[i]);
+		System.out.println("==================================================");
+	}
+	System.out.println("Jadi Pembelian Anda Adalah = ");
+	System.out.println("No \tPilihan \t Bahan \t\t Ukuran \t SubTotal");
+	System.out.println("==================================================");
+		for (int i=0; i < banyak; i++) {
+			System.out.printf("%d \t%s \t\t %s \t%s \t\t %d", i+1, pakaian[i], bhn[i], ukuran[i], subtotal[i]);
+			System.out.println();
+	
+			total = total + subtotal[i];
+		}
+	System.out.println();
+	System.out.println("Total Bayar = Rp. " + total);
+	
+	}	
+	
+}

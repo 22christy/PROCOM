@@ -1,0 +1,27 @@
+package pertemuan3;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		String []namaTeman = new String[4];
+		namaTeman [0]= "Ucok";
+		namaTeman [1] = "Kasdi";
+		namaTeman[2] = "Icak";
+		namaTeman[3] = "ocuk";
+		
+		System.out.println(namaTeman[3]);
+		
+		int[] umur = {17,19,101} ; 
+		String[] nama = {"Ucok", "Titi", "yo", "Kasdi", "Lilian"};
+		 
+		for(int i = 0; i<nama.length; i++) {
+			System.out.println(nama[i]);
+		}
+//		System.out.printf(umur[]);
+		
+		
+		
+	}
+
+}

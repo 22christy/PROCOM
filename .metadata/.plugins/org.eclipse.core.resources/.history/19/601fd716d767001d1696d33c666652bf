@@ -1,0 +1,16 @@
+package pertemuan3;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		String []namaTeman = new String[3];
+		namaTeman [0]= "Ucok";
+		namaTeman [1] = "Kasdi";
+		namaTeman[2] = "Icak";
+//		namaTeman[3] = "ocuk";
+		
+		System.out.println(namaTeman[2]);
+	}
+
+}
